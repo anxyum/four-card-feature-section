@@ -1,3 +1,85 @@
 * {
   box-sizing: border-box;
 }
+
+body {
+  background-color: #fafafa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+main {
+  width: 1100px;
+  height: 530px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.card {
+  width: 350px;
+  height: 250px;
+  background-color: #ffffff;
+  box-shadow: 0px 15px 30px -11px #83a6d280;
+  border-radius: 8px;
+  border-top: 4px solid;
+  padding: 32px;
+  padding-top: 28px;
+  position: relative;
+}
+
+.title {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #4d4f62;
+}
+
+.description {
+  font-family: Poppins;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0.0902777761220932px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #4d4f62;
+  opacity: 0.5;
+}
+
+.icon {
+  position: absolute;
+  right: 32px;
+  bottom: 32px;
+  width: 64px;
+}
+
+#supervisor {
+  border-color: #44d3d2;
+}
+
+#team-builder {
+  border-color: #ea5454;
+}
+
+#karma {
+  border-color: #fcae4a;
+}
+
+#calculator {
+  border-color: #549ef2;
+}
