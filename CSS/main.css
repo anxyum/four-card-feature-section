@@ -45,6 +45,7 @@ main {
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
+  
   color: #4d4f62;
 }
 
@@ -57,6 +58,7 @@ main {
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
+
   color: #4d4f62;
   opacity: 0.5;
 }
